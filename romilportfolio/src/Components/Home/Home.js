@@ -27,7 +27,7 @@ const Home = () => {
         <div className="home-image-container">
           <img
             className="home-image"
-            src="https://images.pexels.com/photos/14737351/pexels-photo-14737351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/15597897/pexels-photo-15597897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           ></img>
         </div>
 
