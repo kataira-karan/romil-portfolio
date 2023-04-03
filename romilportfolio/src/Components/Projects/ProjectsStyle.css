@@ -1,0 +1,29 @@
+
+.projects-container{
+    height: 100vh;
+    background-color:black;
+    color:white;
+    padding:2rem;
+}
+
+.projects{
+    height: 50vh;
+}
+
+.projects-carousel{
+    height: 50vh;
+
+}
+
+.project{
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
