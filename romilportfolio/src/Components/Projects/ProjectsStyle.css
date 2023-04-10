@@ -12,7 +12,12 @@
 
 .projects-carousel{
     height: 50vh;
+    object-fit: cover;
 
+}
+
+.carousel-image{
+    object-fit: cover;
 }
 
 .project{
@@ -25,5 +30,7 @@
 
 }
 
-
-
+.legend{
+    font-size: 3rem; 
+    font-weight: bold;  
+}

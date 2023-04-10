@@ -10,19 +10,19 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <div className="projects">
-        <h2>Some Of My Work</h2>
         <Carousel className="projects-carousel">
           {Data.map((project) => {
             return (
               <div className="project">
                 <img
                   className="carousel-image"
-                  src="https://wallpapers.com/images/featured/0x148xb5hbkabmqu.jpg"
+                  src={require(`./${project.image}`)}
                 />
 
-                <p className="legend">
-                  <Link to={`/projects/${project.id}`}> {project.name} </Link>
-                </p>
+                <Link className="legend" to={`/projects/${project.id}`}>
+                  {" "}
+                  {project.name}{" "}
+                </Link>
               </div>
             );
           })}
