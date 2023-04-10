@@ -21,7 +21,7 @@ const Projects = () => {
                 />
 
                 <p className="legend">
-                  <Link to={`/projects/${project.name}`}> {project.name} </Link>
+                  <Link to={`/projects/${project.id}`}> {project.name} </Link>
                 </p>
               </div>
             );

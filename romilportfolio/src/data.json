@@ -13,10 +13,10 @@
           "description" :"We circulated a google form in the university to know the opinion of the students regarding the existing cafeteria and got the following results.Note: The scale is 0-5, i.e., Worst to Best." },
          { "id" : 3     ,
           "name" : "Survey and Planning of Proposed Cafeteria" ,
-           "images" : ["p1d3i1.jpg","p1d3i2.jpg","p1d3i3.jpg","p1d3i4.jpg","p1d3i5.jpg","p1d3i6.jpg","p1d3i7.jpg"] ,
+           "images" : ["p1d3i1.jpg","p1d3i2.jpg","p1d3i3.jpg","p1d3i4.jpg","p1d3i5.jpg","p1d3i6.jpg"] ,
           "description": "The new cafeteria is proposed at an approximate area of 917 m2. The area is sufficient and satisfies the NBC criteria. There are 25 trees which were to be incorporated in the drawing. We have tried to use the natural surroundings, i.e. trees, to our advantage. Trees provide a serene atmosphere which will be refreshing for the students after a hectic day.Our plan has a seating capacity of 152 students (on chairs), 9 randomly shaped concrete benches which can accommodate about 70 students and wooden benches which can accommodate 32 students."} 
           ] ,
-        "images" : []
+        "images" : ["T1P1.png" , "T1P2.png"]
     },
     {
         "id" :  2,

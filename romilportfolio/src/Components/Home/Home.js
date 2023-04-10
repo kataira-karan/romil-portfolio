@@ -45,8 +45,8 @@ const Home = () => {
             <span className="software"> TEKLA</span>
             <span className="software"> STAAD-PRO </span> and
             <span className="software"> ETABS</span>
-            REVIT, TEKLA, STAAD-PRO and ETABS, looking to obtain a full time
-            offer that offers experience in industry.
+            &nbsp; looking to obtain a full time offer that offers experience in
+            industry.
             <br></br>I am fascinated by focusing not only on the qualities of
             products but also on the development of the process for making them.
             Converting a concept into a complex, high – technology products

@@ -1,12 +1,28 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import "./CaseStudyStyle.css";
+import { useParams } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import p1d1i1 from "./p1d1i1.jpg";
 import p1d1i2 from "./p1d1i2.jpg";
+import Data from "../../data.json";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const CaseStudy = () => {
+  const [project, setproject] = useState({});
+  const param = useParams();
+
+  useEffect(() => {
+    console.log(param);
+    Data.map((project) => {
+      console.log(project);
+      if (param.id === project.id.toString()) {
+        setproject(project);
+        console.log(project);
+      }
+    });
+  }, [project]);
+
   let obj = {
     id: 1,
     name: "College Canteen Design and Detailing",
@@ -52,8 +68,11 @@ const CaseStudy = () => {
     <div className="cs-container">
       <span className="cs-title"> College Canteen Design and Detailing </span>
       <div className="cs-images">
-        <img className="cs-image" src={p1d1i1}></img>
-        <img className="cs-image" src={p1d1i2}></img>
+        {project.images
+          ? project.images.map((img) => {
+              return <img className="cs-image" src={require(`./${img}`)}></img>;
+            })
+          : null}
       </div>
       <span className="cs-description">
         Currently, we have a canteen at SOT in GSFC University with a seating
@@ -76,31 +95,35 @@ const CaseStudy = () => {
         convenience of University goers.{" "}
       </span>
 
-      {obj.details.map((detail) => {
-        return (
-          <div>
-            <span className="cs-title"> {detail.name} </span>
-            <div className="cs-details-images">
-              {/* {detail.images.map((i)=>{
+      {project &&
+        project.details &&
+        project.details.map((detail) => {
+          return (
+            <div>
+              <span className="cs-title"> {detail.name} </span>
+              <div className="cs-details-images">
+                {/* {detail.images.map((i)=>{
 
               })} */}
-              <Carousel className="caro">
-                {detail.images.map((image) => {
-                  return (
-                    <div className="cs-carousel-image-container">
-                      <img
-                        className="cs-carousel-image"
-                        src={require(`./${image}`)}
-                      />
-                      <p className="legend">Legend 1</p>
-                    </div>
-                  );
-                })}
-              </Carousel>
+                <Carousel className="caro">
+                  {detail.images
+                    ? detail.images.map((image) => {
+                        return (
+                          <div className="cs-carousel-image-container">
+                            <img
+                              className="cs-carousel-image"
+                              src={require(`./${image}`)}
+                            />
+                            <p className="legend">Legend 1</p>
+                          </div>
+                        );
+                      })
+                    : null}
+                </Carousel>
+              </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
 
       {/* <Carousel className="cs-carousel">
         <div className="cs-carousel-image">
