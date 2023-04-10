@@ -29,6 +29,11 @@
   z-index: 1;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .navigation {
   display: flex;
   z-index: 1;
@@ -36,16 +41,14 @@
 
 .nav-item {
   padding-inline: 0.5rem;
-  color: brown
-  !important ;
+  color: brown !important ;
   text-decoration: none;
-
 }
 .nav-item a {
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: rgb(55, 43, 89);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(55, 43, 89);
 }
 
 .home-content {

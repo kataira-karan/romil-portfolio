@@ -49,6 +49,14 @@ const Home = () => {
             Converting a concept into a complex, high – technology products
             excites me and I plan on incorporating my strength into a company’s
             mission.
+            <div className="contact-info">
+              <h3>Contact</h3>
+              <span>+1 5196163483</span>
+              <span>romil.bhatt.on@gmail.com</span>
+              <a href="http://www.linkedin.com/in/bhatt-romil-670775198/">
+                LinkedIn
+              </a>
+            </div>
           </span>
         </div>
       </div>
