@@ -14,13 +14,10 @@ const Home = () => {
         <span className="name">Romil Bhatt</span>
         <ul className="navigation">
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link to="/education">Education</Link>
           </li>
           <li className="nav-item">
             <Link to="/projects">Projects</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/education">Education</Link>
           </li>
         </ul>
       </div>

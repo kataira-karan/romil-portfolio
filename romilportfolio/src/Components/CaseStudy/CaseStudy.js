@@ -66,7 +66,7 @@ const CaseStudy = () => {
 
   return (
     <div className="cs-container">
-      <span className="cs-title"> College Canteen Design and Detailing </span>
+      <span className="cs-title"> {project.name} </span>
       <div className="cs-images">
         {project.images
           ? project.images.map((img) => {
@@ -112,9 +112,9 @@ const CaseStudy = () => {
                           <div className="cs-carousel-image-container">
                             <img
                               className="cs-carousel-image"
-                              src={require(`./${image}`)}
+                              src={require(`./${image.image}`)}
                             />
-                            <p className="legend">Legend 1</p>
+                            <p className="legend">{image.title}</p>
                           </div>
                         );
                       })
