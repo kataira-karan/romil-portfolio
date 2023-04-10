@@ -1,64 +1,61 @@
-.cs-container{
-    padding:3rem;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.cs-container {
+  padding: 3rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.cs-title{
-    font-size: 2rem;
-    text-align: center;
-    width: 100vw;
-    margin: 2rem 0 ;
+.cs-title {
+  font-size: 2rem;
+  text-align: center;
+  width: 100vw;
+  margin: 2rem 0;
 }
 
-.cs-images{
-    display :flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
-    height: 50vh;
-    margin: 2rem 0 ;
-    width: 100vw;    
+.cs-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 60vh;
+  margin: 2rem 0;
+  width: 100vw;
 }
 
-
-.cs-image{
-    height: 100%;
-    width: auto;
-    object-fit: cover;
+.cs-image {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
-.cs-description{
-    width: 80%;
-    padding:2rem;
-    text-align: center;
-    line-height: 1.4rem;
-    font-weight: 600;
+.cs-description {
+  width: 80%;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1.4rem;
+  font-weight: 600;
 }
 
-.cs-carousel{
-    width: 80vw;
-    background-color: red;
-    height: 50vh;
+.cs-carousel {
+  width: 80vw;
+  background-color: red;
+  height: 50vh;
 }
 
-.caro{
-    height: 80vh;
-    width: 50vw;
+.caro {
+  height: 80vh;
+  width: 50vw;
 }
 
-.cs-carousel-image-container{
-    background-color: black;
-    height: 70vh;
-    
- 
+.cs-carousel-image-container {
+  background-color: black;
+  height: 65vh;
 }
-.cs-carousel-image{
-    height: 100%;
-    width: 100%;
-    object-fit: contain  ;
+.cs-carousel-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
