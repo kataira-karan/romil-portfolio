@@ -74,26 +74,7 @@ const CaseStudy = () => {
             })
           : null}
       </div>
-      <span className="cs-description">
-        Currently, we have a canteen at SOT in GSFC University with a seating
-        capacity of 96 students in an approx. Area of 282m2. The area is wholly
-        inadequate for 1213 university students.According to NBC, the Dining
-        area should be so designed such that it can accommodate 33.33 – 50 % of
-        the strength of the university at a time at rate of 1.2m2 per diner.The
-        university boys’ hostel serves 143 students and girls hostel 48
-        students. Each mess has an area of 143.4 m2. The mess is hygienic but it
-        is obvious that food will be available at predetermined times only.GSFC
-        shopping centre has 2 provision stores selling fast food items and the
-        road adjoining the campus has 6 fast food stalls. All of these provide
-        food items like Chinese, Bhel, and Vadapav etc. at an affordable cost
-        but lack hygiene. Also, consuming fast food every day is detrimental to
-        health. We have seen that, for students, one of the most pressing issues
-        is the of lack of proper canteen facilities. The above reasons have
-        inspired us to propose a plan for a cafeteria which will provide
-        hygienic and quality food to all the University students. They will not
-        have to travel elsewhere. This will save time, and money and enhance the
-        convenience of University goers.{" "}
-      </span>
+      <span className="cs-description">{project.Description}</span>
 
       {project &&
         project.details &&
