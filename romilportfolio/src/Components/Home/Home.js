@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomeStyle.css";
 import { Link } from "react-router-dom";
-
 import Project from "../Projects/Projects";
 
 const Home = () => {
@@ -19,6 +18,9 @@ const Home = () => {
           </li>
           <li className="nav-item">
             <Link to="/projects">Projects</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/education">Education</Link>
           </li>
         </ul>
       </div>

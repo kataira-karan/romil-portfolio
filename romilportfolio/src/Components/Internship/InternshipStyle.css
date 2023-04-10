@@ -1,0 +1,45 @@
+.internship-container{
+    background-color: black;
+    color: white;
+    height: 100vh   ;
+    display: flex;
+    flex-direction: column;
+    justify-content: ceter;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.internship-header{
+    font-size: 2rem;
+    margin-block:1rem ;
+}
+
+.bottom-border{
+    width: 80%;
+}
+
+.internship-description{
+    text-align: center;
+    margin-block:0.5rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+.internship-image-container{
+    height: 40vh;
+    width: 33%;
+
+}
+
+.internship-images{
+    display: flex;
+    gap:2rem
+}
+
+.internship-image{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: flex;
+
+}
