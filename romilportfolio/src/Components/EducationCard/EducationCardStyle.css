@@ -40,7 +40,7 @@
   flex-direction: column;
 }
 
-a {
+.internship-container a {
   text-decoration: underline;
   color: white;
 }

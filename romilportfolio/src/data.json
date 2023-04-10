@@ -11,7 +11,7 @@
          "name" : "Survey Of GSFC University Canteen" ,
           "images" : ["p1d2i1.jpg","p1d2i2.jpg","p1d2i3.jpg","p1d2i4.jpg","p1d2i5.jpg"], 
           "description" :"We circulated a google form in the university to know the opinion of the students regarding the existing cafeteria and got the following results.Note: The scale is 0-5, i.e., Worst to Best." },
-         { "id" : 3 ,
+         { "id" : 3     ,
           "name" : "Survey and Planning of Proposed Cafeteria" ,
            "images" : ["p1d3i1.jpg","p1d3i2.jpg","p1d3i3.jpg","p1d3i4.jpg","p1d3i5.jpg","p1d3i6.jpg","p1d3i7.jpg"] ,
           "description": "The new cafeteria is proposed at an approximate area of 917 m2. The area is sufficient and satisfies the NBC criteria. There are 25 trees which were to be incorporated in the drawing. We have tried to use the natural surroundings, i.e. trees, to our advantage. Trees provide a serene atmosphere which will be refreshing for the students after a hectic day.Our plan has a seating capacity of 152 students (on chairs), 9 randomly shaped concrete benches which can accommodate about 70 students and wooden benches which can accommodate 32 students."} 
@@ -20,20 +20,12 @@
     },
     {
         "id" :  2,
-        "name" : "Project Name",
-        "Description" : "Description",
-        "images" : []
-    },
-    {
-        "id" :  3,
-        "name" : "Project Name",
-        "Description" : "Description",
-        "images" : []
-    },
-    {
-        "id" :  4,
-        "name" : "Project Name",
-        "Description" : "Description",
+        "name" : "Truss Frame Analysis And Design",
+        "Description" : "This case study presents struss frame analysis and design using STAAD.Pro software version STAAD.Pro V8i (SELECT series 5). Eight spans of the trusses have been considered and each truss has been subjected to Dead load+ Live load + Wind load types of load cases by changing nodal load locations. Steel take-off for each case and maximum displacement for each case have been calculated and compared in this study and unity check for each member, which is major tool of staad pro software which define weather the structure will resist the applied load or gets failed under this load combinations. All the results need to ensure compliance with relevant standards and regulations, such as the American Institute of Steel Construction (AISC) code. Results of the study could be helpful in designing a truss that does not waste material and can sustain the load efficiently.",
+        "details":[{
+            
+        }],
         "images" : []
     }
+
 ]

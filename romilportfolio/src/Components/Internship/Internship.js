@@ -36,24 +36,18 @@ const Internship = () => {
           : null}
       </span>
       <div className="internship-images">
-        <div className="internship-image-container">
-          <img
-            className="internship-image"
-            src="https://images.pexels.com/photos/4041122/pexels-photo-4041122.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-          ></img>
-        </div>
-        <div className="internship-image-container">
-          <img
-            className="internship-image"
-            src="https://images.pexels.com/photos/4041122/pexels-photo-4041122.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-          ></img>
-        </div>
-        <div className="internship-image-container">
-          <img
-            className="internship-image"
-            src="https://images.pexels.com/photos/4041122/pexels-photo-4041122.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-          ></img>
-        </div>
+        {interns.images
+          ? interns.images.map((img) => {
+              return (
+                <div className="internship-image-container">
+                  <img
+                    className="internship-image"
+                    src={require(`./${img}`)}
+                  ></img>
+                </div>
+              );
+            })
+          : null}
       </div>
     </div>
   );
