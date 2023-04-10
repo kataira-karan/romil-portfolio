@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CaseStudy from "./Components/CaseStudy/CaseStudy";
 import Education from "./Components/Education/Education";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/education">
             <Education></Education>
+          </Route>
+          <Route exact path="/experience">
+            <Experience></Experience>
           </Route>
           <Route exact path="/education/internship/:id">
             <Internship></Internship>

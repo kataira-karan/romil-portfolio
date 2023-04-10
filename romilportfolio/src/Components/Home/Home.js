@@ -19,15 +19,15 @@ const Home = () => {
           <li className="nav-item">
             <Link to="/projects">Projects</Link>
           </li>
+          <li className="nav-item">
+            <Link to="/experience">Work Experience</Link>
+          </li>
         </ul>
       </div>
 
       <div className="home-content">
         <div className="home-image-container">
-          <img
-            className="home-image"
-            src="https://images.pexels.com/photos/15597897/pexels-photo-15597897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          ></img>
+          <img className="home-image" src={require("./123.jpg")}></img>
         </div>
 
         <div className="home-description-container">

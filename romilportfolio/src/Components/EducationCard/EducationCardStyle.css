@@ -1,8 +1,9 @@
 .education-card-container {
   width: 80vw;
-  height: 45vh;
+  height: auto;
   display: flex;
   padding: 2rem;
+  max-width: auto;
   border-radius: 10px;
   gap: 2rem;
   /* border:0.1px solid white; */
@@ -12,7 +13,7 @@
 
 .education-card-image-container {
   width: 40vw;
-  height: 100%;
+  height: 45vh;
 }
 
 .education-card-header {
@@ -28,10 +29,14 @@
 .education-card-description {
 }
 
+.role {
+  margin-block: 0.2rem;
+}
+
 .education-card-image {
   height: 100%;
   width: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .internships-container {

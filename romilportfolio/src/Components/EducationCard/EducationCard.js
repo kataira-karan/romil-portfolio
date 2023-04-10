@@ -3,7 +3,7 @@ import "./EducationCardStyle.css";
 import { Link } from "react-router-dom";
 
 const EducationCard = (props) => {
-  const { title, description, imgAdd, intership } = props;
+  const { title, description, imgAdd, intership, role } = props;
 
   return (
     <div className="education-card-container">
@@ -38,6 +38,12 @@ const EducationCard = (props) => {
         ) : (
           ""
         )}
+
+        {role
+          ? role.map((r) => {
+              return <span className="role"> {r} </span>;
+            })
+          : null}
       </div>
     </div>
   );
